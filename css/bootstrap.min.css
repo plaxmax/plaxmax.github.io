@@ -11568,7 +11568,8 @@ fieldset:disabled .btn {
     font-family: 'Lilita One', cursive;
     color: #1b3f7b;
     /* Color del texto */
-    font-size: 4rem;
+    font-size: clamp(2rem, 5vw + 1rem, 4rem);
+    /* Ajuste responsivo */
     /* Tamaño del texto */
     font-weight: 900;
     /* Grosor del texto */
